@@ -1,8 +1,13 @@
- #include<stdio.h>
+
+#include <stdlib.h>   
+#include <time.h>
         int random_number(int min_num, int max_num);
 
         int main(void) {
           printf("Min : 000000 Max : 999999 %d\n",random_number(000000,999999));
+          for (int i=0 ; i < 5 ;i++) {
+          printf("Min : 000 Max : 999 %d\n",random_number(000,999));
+          }
           return 0;
         }
 
